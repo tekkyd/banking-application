@@ -138,6 +138,48 @@ public static List<Customer> JSONDeserialise()
                 ""LoginID"": ""1234"",
                 ""PasswordHash"": ""Rfc2898DeriveBytes$50000$MrW2CQoJvjPMlynGLkGFrg==$x8iV0TiDbEXndl0Fg8V3Rw91j5f5nztWK1zu7eQa0EE=""
             }
+        },
+        {
+            ""CustomerID"": 1002,
+            ""Name"": ""Guest User"",
+            ""Address"": ""123 Guest Street"",
+            ""City"": ""Sydney"",
+            ""PostCode"": ""2200"",
+            ""Accounts"": [
+                {
+                    ""AccountNumber"": 2100,
+                    ""AccountType"": ""S"",
+                    ""CustomerID"": 1002,
+                    ""Transactions"": [
+                        {
+                            ""Amount"": 1000,
+                            ""Comment"": ""Opening balance"",
+                            ""TransactionTimeUtc"": ""02/01/2025 08:00:00 PM""
+                        }
+                    ]
+                },
+                {
+                    ""AccountNumber"": 2200,
+                    ""AccountType"": ""C"",
+                    ""CustomerID"": 1002,
+                    ""Transactions"": [
+                        {
+                            ""Amount"": 1500,
+                            ""Comment"": ""First deposit"",
+                            ""TransactionTimeUtc"": ""02/01/2025 08:30:00 PM""
+                        },
+                        {
+                            ""Amount"": 5000,
+                            ""Comment"": ""Second deposit"",
+                            ""TransactionTimeUtc"": ""02/01/2025 08:45:00 PM""
+                        }
+                    ]
+                }
+            ],
+            ""Login"": {
+                ""LoginID"": ""0000"",
+                ""PasswordHash"": ""Rfc2898DeriveBytes$50000$MrW2CQoJvjPMlynGLkGFrg==$x8iV0TiDbEXndl0Fg8V3Rw91j5f5nztWK1zu7eQa0EE=""
+            }
         }
     ]";
 
