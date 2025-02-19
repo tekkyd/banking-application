@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/wwwroot/img/Logo-bread-bank-icon.jpg",
+      "PackagePath": "staticwebassets/img/Logo-bread-bank-icon.jpg"
+    },
+    {
       "Id": "/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/wwwroot/img/breadbank.jpg",
       "PackagePath": "staticwebassets/img/breadbank.jpg"
     },

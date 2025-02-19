@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QCl8Htv217bHJkSOKexV0fc4vjnS+sO3mzgr+EBmR4U=",
+  "Hash": "ITclhyX5VQWw/wV4sCw0B30EyrqynispIbx0e4QF2YM=",
   "Source": "BankingApplication",
   "BasePath": "_content/BankingApplication",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/breadbank.jpg"
+    },
+    {
+      "Identity": "/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/wwwroot/img/Logo-bread-bank-icon.jpg",
+      "SourceId": "BankingApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/wwwroot/",
+      "BasePath": "_content/BankingApplication",
+      "RelativePath": "img/Logo-bread-bank-icon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/Logo-bread-bank-icon.jpg"
     },
     {
       "Identity": "/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/wwwroot/js/site.js",
