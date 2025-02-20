@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Account";
 }
-
+@* <div class="text-center"> *@
 @if(Model.AccountType == "S")
 {
     <h1 class="display-4 mb-4 pb-3 border-bottom">Account Number @Model.AccountNumber (Savings)</h1>
@@ -11,5 +11,29 @@ else if(Model.AccountType == "C")
 {
     <h1 class="display-4 mb-4 pb-3 border-bottom">Account Number @Model.AccountNumber (Checking)</h1>
 }
+@* </div> *@
+
 
 <h3 class="mb-3">Balance: @($"{Model.Balance:C}")</h3>
+
+@* <div>
+    <a class="btn btn-primary"
+        asp-action="Index">Deposit</a>
+    <a class="btn btn-primary"
+        asp-action="Index">Withdraw</a>
+    <a class="btn btn-primary"
+        asp-action="Index">Transfer</a>
+</div> *@
+
+@* <div class="d-flex justify-content-center align-items-center"> *@
+<div>
+    @* <div class="text-center"> *@
+    <div>
+        <a class="btn btn-lg btn-primary me-2" asp-controller="Deposit" asp-action="Index" asp-route-id="@Model.AccountNumber">Deposit</a>
+        <a class="btn btn-lg btn-primary m-2" asp-action="Index">Withdraw</a>
+        <a class="btn btn-lg btn-primary m-2" asp-action="Index">Transfer</a>
+        <a class="btn btn-lg btn-outline-primary m-2" asp-action="Index">View Statements</a>
+    </div>
+</div>
+
+

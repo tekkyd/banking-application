@@ -12,7 +12,6 @@ public class AccountController : Controller
 {
     private readonly BankingApplicationContext _context;
     private readonly ISessionWrapper _session;
-    private int CustomerID => _session.GetInt32(nameof(Customer.CustomerID));
 
     public AccountController(BankingApplicationContext context, ISessionWrapper session)
     {
