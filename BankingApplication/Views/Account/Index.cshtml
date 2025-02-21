@@ -14,7 +14,7 @@ else if(Model.AccountType == "C")
 @* </div> *@
 
 
-<h3 class="mb-3">Balance: @($"{Model.Balance:C}")</h3>
+<h3 class="mb-5">Balance: @($"{Model.Balance:C}")</h3>
 
 @* <div>
     <a class="btn btn-primary"
@@ -25,15 +25,11 @@ else if(Model.AccountType == "C")
         asp-action="Index">Transfer</a>
 </div> *@
 
-@* <div class="d-flex justify-content-center align-items-center"> *@
-<div>
-    @* <div class="text-center"> *@
-    <div>
-        <a class="btn btn-lg btn-primary me-2" asp-controller="Deposit" asp-action="Index" asp-route-id="@Model.AccountNumber">Deposit</a>
-        <a class="btn btn-lg btn-primary m-2" asp-action="Index">Withdraw</a>
-        <a class="btn btn-lg btn-primary m-2" asp-action="Index">Transfer</a>
-        <a class="btn btn-lg btn-outline-primary m-2" asp-action="Index">View Statements</a>
-    </div>
+<div class="d-grid gap-2 col-4 mx-auto mt-5">
+        <a class="btn btn-lg btn-primary mb-2" asp-controller="Deposit" asp-action="Index" asp-route-id="@Model.AccountNumber">Deposit</a>
+        <a class="btn btn-lg btn-primary mb-2" asp-action="Index">Withdraw</a>
+        <a class="btn btn-lg btn-primary mb-2" asp-action="Index">Transfer</a>
+        <a class="btn btn-lg btn-primary mb-2" asp-action="Index">View Statements</a>
 </div>
 
 
