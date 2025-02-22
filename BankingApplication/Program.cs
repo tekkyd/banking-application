@@ -44,7 +44,7 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+// app.UseRouting();
 
 app.UseAuthorization();
 app.UseSession();
