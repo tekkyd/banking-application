@@ -139,3 +139,7 @@
 /Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/obj/Debug/net8.0/BankingApplication.csproj.AssemblyReference.cache
 /Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/obj/Debug/net8.0/BankingApplication.csproj.CopyComplete
+/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/bin/Debug/net8.0/JetBrains.Annotations.dll
+/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/bin/Debug/net8.0/X.PagedList.dll
+/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/bin/Debug/net8.0/X.PagedList.Mvc.Core.dll
+/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/obj/Debug/net8.0/BankingApplication.MvcApplicationPartsAssemblyInfo.cs

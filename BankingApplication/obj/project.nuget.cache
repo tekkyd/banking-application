@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JRCkDFhY0wY+hirzOKT4DVEYFGj3X/s5+a+j5itNDbkGx/PWxYFRy7rpDXTt/WQbWjW/HlX3ND0HaTCHPi/urg==",
+  "dgSpecHash": "cmoCIqsGe9UDgEyJsJINkEMlerpl6qLnPn1NSYW8YtrRKAfrRCbVwP/zZSOGu9aShNyZVdG6Cik4qizYeBTFgQ==",
   "success": true,
   "projectFilePath": "/Users/derektek/Documents/Personal-Projects-2025/banking-application/BankingApplication/BankingApplication.csproj",
   "expectedPackageFiles": [
     "/Users/derektek/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/derektek/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/derektek/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/derektek/.nuget/packages/jetbrains.annotations/2022.3.1/jetbrains.annotations.2022.3.1.nupkg.sha512",
     "/Users/derektek/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/derektek/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/Users/derektek/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -80,7 +81,9 @@
     "/Users/derektek/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
     "/Users/derektek/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
     "/Users/derektek/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/Users/derektek/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+    "/Users/derektek/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
+    "/Users/derektek/.nuget/packages/x.pagedlist/8.4.7/x.pagedlist.8.4.7.nupkg.sha512",
+    "/Users/derektek/.nuget/packages/x.pagedlist.mvc.core/8.4.7/x.pagedlist.mvc.core.8.4.7.nupkg.sha512"
   ],
   "logs": []
 }

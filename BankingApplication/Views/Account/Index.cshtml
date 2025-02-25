@@ -22,8 +22,8 @@ else if(Model.AccountType == "C")
 <div class="d-grid gap-2 col-4 mx-auto mt-5">
     <a class="btn btn-lg btn-primary mb-2" asp-controller="Deposit" asp-action="Index" asp-route-id="@Model.AccountNumber">Deposit</a>
     <a class="btn btn-lg btn-primary mb-2" asp-controller="Withdraw" asp-action="Index" asp-route-id="@Model.AccountNumber">Withdraw</a>
-    <a class="btn btn-lg btn-primary mb-2" asp-action="Index">Transfer</a>
-    <a class="btn btn-lg btn-primary mb-2" asp-action="Index">View Statements</a>
+    <a class="btn btn-lg btn-primary mb-2" asp-controller="Transfer" asp-action="Index" asp-route-id="@Model.AccountNumber">Transfer</a>
+    <a class="btn btn-lg btn-primary mb-2" asp-controller="Statements" asp-action="Index" asp-route-id="@Model.AccountNumber">View Statements</a>
 </div>
 
 
