@@ -25,7 +25,7 @@ public class StatementsController : Controller
     public IActionResult Index(int id, int page = 1)
     {
         // the number of transactions per page
-        const int pageSize = 4;
+        const int pageSize = 6;
         // Page list to iterate over
         var pagedList = _context.Transactions.Where(x => x.AccountNumber == id).
         Include(x => x.Account).Where(x => x.AccountNumber == id).
