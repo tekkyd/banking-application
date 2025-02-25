@@ -24,7 +24,14 @@
             </div>
             @Html.ValidationMessage("LoginFailed", new { @class = "text-danger" })
         </form>
+
+        <form asp-action="Login" method="post">
+            <input type="hidden" name="loginID" value="0000" />
+            <input type="hidden" name="password" value="abc123" />
+            <button type="submit" class="btn btn-outline-primary">Login as Guest</button>
+        </form>
     </div>
+
 </div>
 
 @section Scripts {
