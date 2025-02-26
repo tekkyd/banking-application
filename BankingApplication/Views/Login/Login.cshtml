@@ -28,7 +28,11 @@
         <form asp-action="Login" method="post">
             <input type="hidden" name="loginID" value="0000" />
             <input type="hidden" name="password" value="abc123" />
-            <button type="submit" class="btn btn-outline-primary">Login as Guest</button>
+
+            <div class="d-flex align-items-center mt-4 gap-2">
+                <p class="mb-0">Don't have an account?</p>
+                <button type="submit" class="btn btn-outline-primary">Continue as guest</button>
+            </div>
         </form>
     </div>
 
