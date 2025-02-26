@@ -6,20 +6,20 @@
 
 <h1>
     @{
-        string transactionType = "";
+        @* string transactionType = ""; *@
         if (Model.TransactionType == "D")
         {
-            transactionType = "Deposit";
+            @* transactionType = "Deposit"; *@
             <h1 class="display-4 mb-4 pb-3 border-bottom">Deposit Confirmation</h1>
         }
         else if (Model.TransactionType == "T")
         {
-            transactionType = "Transfer";
+            @* transactionType = "Transfer"; *@
             <h1 class="display-4 mb-4 pb-3 border-bottom">Transfer Confirmation</h1>
         }
         else if (Model.TransactionType == "W")
         {
-            transactionType = "Withdraw";
+            @* transactionType = "Withdraw"; *@
             <h1 class="display-4 mb-4 pb-3 border-bottom">Withdraw Confirmation</h1>
         }
     }
